@@ -1,0 +1,17 @@
+[package]
+name = "embedded-simple-ui"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.71.0"
+authors = ["Freja <me@freja.codes>"]
+description = "Simple UI elements (LED, hw switch, etc.) with implementations on top of embedded-hal and embedded-time crates "
+documentation = "https://docs.rs/embedded-simple-ui/"
+repository = "https://github.com/0xfrej/vlcb-rs.git"
+readme = "README.md"
+keywords = ["embedded", "ui", "simpleui", "simple"]
+categories = ["no-std", "embedded"]
+license = "Apache-2.0"
+
+[dependencies]
+embedded-hal = "1.0.0-rc.1"
+embedded-time = "0.12.1"
